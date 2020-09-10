@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>registration form</title>
+</head>
+<body>
+  <h1>Register</h1>
+
+  <form>
+    <label for="first name">First Name</label>
+    <input id="first name" type="text" placeholder="John" required>
+
+    <label for="last name">Last Name</label>
+    <input id="last name" type="text" placeholder="Smith" required>
+
+    <div>
+      <label for="male">Male</label>
+      <input id="male" type="radio" name="gender" value="MALE">
+
+      <label for="female">Female</label>
+      <input id="female" type="radio" name="gender" value="FEMALE">
+
+      <label for="other">Other</label>
+      <input id="female" type="radio" name="gender" valeu="OTHER">
+    </div>
+
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="your email" required>
+  
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="your password" maxlength="10" minlength="5" required>
+    </div>
+
+    <div>
+      <label for="birthday">Birthday:</label>
+      <select name="month" id="birthday" default="">
+        <option>Month</option>
+        <option>Jan</option>
+        <option>Feb</option>
+      </select>
+      
+      <select name="day" id="birthday">
+        <option>Day</option>
+        <option>1</option>
+        <option>2</option>
+      </select>
+      
+      <select name="year" id="birthday">
+        <option>Year</option>
+        <option>1999</option>
+        <option>2000</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="checkbox">I agree to the terms and conditions</label>
+      <input type="checkbox" id="checkbox">
+    </div>
+
+    <div>
+      <button>Submit</button>
+    </div>
+  </form>
+</body>
+</html>
