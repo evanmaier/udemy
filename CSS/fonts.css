@@ -1,0 +1,38 @@
+/* second option after comma is backup font */
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-family: Georgia;
+}
+
+/* px is absolute font size */
+h1 {
+  font-size: 75px;
+}
+
+/* em is relative font size (usualy 1 em is 16px)*/
+span {
+  font-size: 3.0em;
+}
+
+/* Font weight is thicccness */
+p {
+  font-weight: 500;
+}
+
+/* line height determines line spacing */
+p {
+  line-height: 1.5;
+}
+
+/* text align does what you think */
+h1 {
+  text-align: center;
+}
+
+/* text decoration does underlign, overlign, strike through */
+h1 {
+  text-decoration: underline;
+}

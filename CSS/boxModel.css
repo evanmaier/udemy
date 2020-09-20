@@ -1,0 +1,15 @@
+/* every html element is a box with content, padding, border, and margin components */
+
+p {
+  /* content */
+  width: 50%;
+
+  /* border */
+  border: 2px solid grey;
+
+  /* padding */
+  padding: 10px;
+
+  /* margin */
+  margin: 50px, auto;
+}
